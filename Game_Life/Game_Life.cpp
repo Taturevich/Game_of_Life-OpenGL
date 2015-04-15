@@ -346,6 +346,7 @@ int main(int argc, char** argv)
 	if (hwnd != NULL)
 	{
 		ShowWindow(hwnd, SW_HIDE);
+		PlaySound(L"02_scorpions_the_game_of_life_myzuka.org.wav", NULL, SND_ASYNC | SND_LOOP);
 	}
 	glutInit(&argc, argv);
 	glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB);
